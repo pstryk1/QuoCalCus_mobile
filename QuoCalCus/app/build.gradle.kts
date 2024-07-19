@@ -50,7 +50,20 @@ android {
 }
 
 dependencies {
+    //added by colaborators
+    implementation(libs.material)
+    val navVersion = "2.7.7"
+    implementation(libs.androidx.navigation.compose)
 
+    implementation(libs.play.services.location)
+
+    implementation(libs.maps.compose)
+
+    implementation(libs.play.services.maps)
+
+    implementation(libs.androidx.material.icons.extended.android)
+
+    //auto added
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)

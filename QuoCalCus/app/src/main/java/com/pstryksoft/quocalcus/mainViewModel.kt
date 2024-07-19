@@ -1,4 +1,10 @@
 package com.pstryksoft.quocalcus
 
-class mainViewModel {
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+
+class mainViewModel (application: Application): AndroidViewModel(application) {
+
+
+
 }
