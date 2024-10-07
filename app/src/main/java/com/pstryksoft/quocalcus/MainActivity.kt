@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MainScreen(modifier = Modifier)
+            MainScreen(modifier = Modifier, mainVM)
         }
     }
 }
